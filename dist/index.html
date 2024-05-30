@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="随波App，一款帮助您沉浸式聆听白噪音，进行呼吸深呼吸训练的工具。">
+    <meta name="keywords" content="随波, 随波App, 白噪音, 深呼吸, 呼吸训练, 冥想, 呼吸冥想, 沉浸式体验, 内心探寻, 自我对话">
+    
+    <title>随波 · 向内探寻，对话自我</title>
+
+    <!-- Open Graph Meta Tags for better social media integration -->
+    <meta property="og:title" content="随波APP">
+    <meta property="og:description" content="随波App，一款帮助您沉浸式聆听白噪音，进行呼吸练习的工具。鼓励向内探寻，与自我对话，找到内心的宁静。">
+    <meta property="og:image" content="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/%E9%9A%8F%E6%B3%A2APP%20ICON.png">
+    <meta property="og:url" content="https://suibo.dooosome.com">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="随波APP">
+    <meta name="twitter:title" content="随波 · 向内探寻，对话自我">
+    <meta name="twitter:description" content="随波App，一款帮助您沉浸式聆听白噪音，进行呼吸练习的工具。鼓励向内探寻，与自我对话，找到内心的宁静。">
+    <meta name="twitter:image" content="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/%E9%9A%8F%E6%B3%A2APP%20ICON.png">
+    <meta name="twitter:site" content="@你的Twitter用户名">
+
+    <!-- Link to the canonical URL to avoid duplicate content issues -->
+    <link rel="canonical" href="https://suibo.dooosome.com">
+
+    <!-- Stylesheets and other head elements -->
+    <link href="/dist/style.css" rel="stylesheet">
+    
+    <!-- Favicons for better branding -->
+    <link rel="icon" href="/asset/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/%E9%9A%8F%E6%B3%A2APP%20ICON.png">
+</head>
+
+<body class="bg-primaryYellow">
+
+    <!-- 固定顶部横条 -->
+    <header id="header" class="fixed top-0 left-0 w-full flex justify-between items-center p-1 bg-primaryYellow transition-all duration-300 ease-in-out z-50">
+        <div class="flex flex-row h-16 md:w-80 justify-center items-center py-2 mx-5 md:mx-20">
+            <img src="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/BlueAvatart.png" alt="Avatar" class="w-8 h-8 mx-3 md:w-16 md:h-16 md:mx-4">
+            <div class="flex flex-row w-36 md:w-64 h-16 justify-start items-center space-x-1">
+                <h1 class="text-xl w-12 md:w-16 font-bold text-center md:text-3xl">随波</h1>
+                <div class="relative w-24 md:w-48 h-full overflow-hidden flex items-center">
+                    <div id="text1" class="text-primaryBlue font-light text-xl md:text-3xl absolute w-full text-left transition-opacity duration-1000">深呼吸</div>
+                    <div id="text2" class="text-primaryBlue font-light text-xl md:text-3xl absolute w-full text-left transition-opacity duration-1000 opacity-0">白噪音</div>
+                </div>
+            </div>
+        </div>
+
+        <a href="https://apps.apple.com/cn/app/%E9%9A%8F%E6%B3%A2/id6499087624?l=cn-ZH" target="_blank" class="md:mx-20">
+            <button class="bg-primaryBlue rounded-md text-sm text-white font-normal hover:bg-black hover:font-bold hover:text-white px-2 py-1 mx-8">去下载</button>
+        </a>
+    </header>
+
+    <!-- 正文内容 -->
+    <div class="mt-0">
+        <!-- 第一屏 -->
+        <section class="h-screen flex flex-col md:flex-row justify-center items-center bg-primaryYellow">
+            <div class="flex flex-col justify-center px-20 items-center md:items-start">
+                <h1 class="text-5xl text-gray-900 font-bold p-4 hidden md:block">简洁设计 <span
+                        class="text-primaryBlue">沉浸声音</span></h1>
+                <h1 class="text-5xl text-gray-900 font-bold p-2 md:hidden">简洁设计</h1>
+                <h1 class="text-5xl text-primaryBlue font-bold p-2 md:hidden">沉浸声音</h1>
+                <p class="text-xl md:text-3xl text-gray-400 px-4 py-10">糟糕的设计源于打扰</p>
+            </div>
+            <div class="flex justify-center items-center px-20 md:w-1/2">
+                <img src="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/%E9%9A%8F%E6%B3%A2%E4%B8%BB%E9%A1%B5%E9%9D%A2.png"
+                    alt="First Screen Image" class="w-3/4 md:w-1/2">
+            </div>
+        </section>
+
+        <!-- 第二屏 -->
+        <section class="h-screen flex flex-col md:flex-row justify-center items-center bg-primaryYellow">
+            <div class="flex flex-col justify-center px-20 items-center md:items-start">
+                <h1 class="text-5xl text-gray-900 font-bold p-4 hidden md:block">掌控节奏 <span
+                        class="text-primaryBlue">重新呼吸</span></h1>
+                <h1 class="text-5xl text-gray-900 font-bold p-2 md:hidden">掌控节奏</h1>
+                <h1 class="text-5xl text-primaryBlue font-bold p-2 md:hidden">重新呼吸</h1>
+                <p class="text-xl md:text-3xl text-gray-400 px-4 py-10">呼吸，神殿的小径</p>
+            </div>
+            <div class="flex justify-center items-center px-20 md:w-1/2">
+                <img src="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/%E9%9A%8F%E6%B3%A2%E6%B7%B1%E5%91%BC%E5%90%B8.png"
+                    alt="First Screen Image" class="w-3/4 md:w-1/2">
+            </div>
+        </section>
+
+        <!-- 第三屏 -->
+        <section class="h-screen flex flex-col md:flex-row justify-center items-center bg-primaryYellow">
+            <div class="flex flex-col justify-center px-20 items-center md:items-start">
+                <h1 class="text-5xl text-gray-900 font-bold p-4 hidden md:block">有限选择 <span
+                        class="text-primaryBlue">更多自由</span></h1>
+                <h1 class="text-5xl text-gray-900 font-bold p-2 md:hidden">有限选择</h1>
+                <h1 class="text-5xl text-primaryBlue font-bold p-2 md:hidden">更多自由</h1>
+                <p class="text-xl md:text-3xl text-gray-400 px-4 py-10">不再选择困难</p>
+            </div>
+            <div class="flex justify-center items-center px-20 md:w-1/2">
+                <img src="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/%E9%9A%8F%E6%B3%A2%E5%88%97%E8%A1%A8.png"
+                    alt="First Screen Image" class="w-3/4 md:w-1/2">
+            </div>
+        </section>
+
+        <!-- 第四屏 -->
+        <section class="h-screen flex flex-col md:flex-row justify-center items-center bg-primaryYellow">
+            <div class="flex flex-col justify-center px-20 items-center md:items-start">
+                <h1 class="text-5xl text-gray-900 font-bold p-4 hidden md:block">定时关闭 <span
+                        class="text-primaryBlue">好用安心</span></h1>
+                <h1 class="text-5xl text-gray-900 font-bold p-2 md:hidden">定时关闭</h1>
+                <h1 class="text-5xl text-primaryBlue font-bold p-2 md:hidden">好用安心</h1>
+                <p class="text-xl md:text-3xl text-gray-400 px-4 py-10">番茄钟或睡眠都好用</p>
+            </div>
+            <div class="flex justify-center items-center px-20 md:w-1/2">
+                <img src="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/%E9%9A%8F%E6%B3%A2%E5%80%92%E8%AE%A1%E6%97%B6.png"
+                    alt="First Screen Image" class="w-3/4 md:w-1/2">
+            </div>
+        </section>
+    </div>
+
+    <!-- 分割线 -->
+    <hr class="md:hidden border-t-1 border-gray-300 mx-8">
+
+    <!-- 引导下载 -->
+    <section class="h-screen flex flex-col justify-center items-center bg-primaryYellow space-y-24 md:space-y-56">
+        <!-- 标题 -->
+        <div>
+            <div class="text-7xl text-gray-900 font-bold p-4 hidden md:block">向内探寻 <span class="text-primaryBlue">对话自我</span></div>
+            <div class="text-5xl text-gray-900 font-bold p-2 md:hidden">向内探寻</div>
+            <div class="text-5xl text-primaryBlue font-bold p-2 md:hidden">对话自我</div>
+        </div>
+    
+        <!-- 移动端下载按钮 -->
+        <a href="https://apps.apple.com/cn/app/%E9%9A%8F%E6%B3%A2/id6499087624?l=cn-ZH" class="flex md:hidden flex-col justify-center items-center space-y-5">
+            <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="随波APP苹果商店下载" class="w-32 md:w-32 h-auto">
+            <div class="felx flex-col justify-center items-center space-y-1">
+                <div class="text-base text-gray-400 text-center">点击下载 开始体验</div>
+            </div>
+        </a>
+    
+        <!-- Web端扫码下载 -->
+        <div class="hidden md:flex flex-col justify-center items-center space-y-10">
+            <img src="https://cdn.jsdelivr.net/gh/jason4wang/ImageBed/Images/SuiboAppStore.png" alt="随波APP下载二维码" class="md:w-48 md:h-auto">
+            <div class="md:text-xl font-light text-gray-400">扫码下载 开始体验</div>
+        </div>
+    
+        <!-- 备案号 -->
+        <div class="font-light text-sm text-gray-500 translate-y-20">浙ICP备2023029450号-3A</div>
+    </section>
+
+    <!-- JS 代码 -->
+
+    <!-- 滚动屏幕后展示header底边 -->
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.getElementById('header');
+            if (window.scrollY > 50) {
+                header.classList.add('border-b', 'border-gray-300');
+            } else {
+                header.classList.remove('border-b', 'border-gray-300');
+            }
+        });
+    </script>
+
+    <!-- 顶部标题轮播 -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const text1 = document.getElementById('text1');
+            const text2 = document.getElementById('text2');
+            let isText1Visible = true;
+
+            setInterval(() => {
+                if (isText1Visible) {
+                    text1.classList.add('opacity-0');
+                    text1.classList.remove('opacity-100');
+                    text2.classList.add('opacity-100');
+                    text2.classList.remove('opacity-0');
+                } else {
+                    text1.classList.add('opacity-100');
+                    text1.classList.remove('opacity-0');
+                    text2.classList.add('opacity-0');
+                    text2.classList.remove('opacity-100');
+                }
+                isText1Visible = !isText1Visible;
+            }, 2000);
+        });
+    </script>
+
+</body>
+
+</html>
